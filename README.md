@@ -20,7 +20,7 @@ Si eres un gestor o un desarrollador que necesita acceso a todo el ecosistema (H
    ```bash
    # 1. Clona el repositorio central
    git clone https://github.com/star-uma/eurobot.git
-   cd eurobot2027
+   cd eurobot
 
    # 2. Importa todos los sub-repositorios en la carpeta raíz
    vcs import . < eurobot_full.repos
