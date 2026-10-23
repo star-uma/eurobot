@@ -13,7 +13,7 @@ Si eres un gestor o un desarrollador que necesita acceso a todo el ecosistema (H
 
 1. **Prerrequisitos**: Instala la herramienta `vcstool` (estándar en ROS 2):
    ```bash
-   sudo apt pull python3-vcstool
+   sudo apt install python3-vcstool
    ```
 
 2. **Clonar y Desplegar**:
