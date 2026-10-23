@@ -19,11 +19,11 @@ Si eres un gestor o un desarrollador que necesita acceso a todo el ecosistema (H
 2. **Clonar y Desplegar**:
    ```bash
    # 1. Clona el repositorio central
-   git clone https://github.com/star-uma/eurobot2027.git
+   git clone https://github.com/star-uma/eurobot.git
    cd eurobot2027
 
    # 2. Importa todos los sub-repositorios en la carpeta raíz
-   vcs import . < eurobot2027_full.repos
+   vcs import . < eurobot_full.repos
    ```
 
 3. **Mantenerse actualizado**: Para descargar los últimos cambios de todos los repositorios a la vez:
@@ -43,15 +43,15 @@ Contiene todos los modelos 3D, ensamblajes, esquemas electrónicos y PCBs.
 
 ### 💻 Software y Control (ROS 2)
 El ecosistema de software está distribuido. Para instalar el robot completo, dirígete al meta-repositorio de software.
-* [eurobot2027_software](https://github.com/star-uma/eurobot2027_software.git) - **Meta-repositorio (Inicio rápido e instalación).**
-* [eurobot2027_software_vision](https://github.com/star-uma/eurobot2027_software_vision.git) - Paquetes de visión artificial.
-* [eurobot2027_software_control](https://github.com/star-uma/eurobot2027_software_control.git) - Nodos de control y navegación.
-* [eurobot2027_software_simulacion](https://github.com/star-uma/eurobot2027_software_simulacion.git) - Entornos virtuales y modelo URDF en Gazebo.
-* [eurobot2027_software_firmware_esp32](https://github.com/star-uma/eurobot2027_software_firmware_esp32.git) - Código de bajo nivel para microcontroladores.
+* [eurobot_software](https://github.com/star-uma/eurobot_software.git) - **Meta-repositorio (Inicio rápido e instalación).**
+* [eurobot_software_vision](https://github.com/star-uma/eurobot_software_vision.git) - Paquetes de visión artificial.
+* [eurobot_software_control](https://github.com/star-uma/eurobot2027_software_control.git) - Nodos de control y navegación.
+* [eurobot_software_simulacion](https://github.com/star-uma/eurobot_software_simulacion.git) - Entornos virtuales y modelo URDF en Gazebo.
+* [eurobot_software_firmware_esp32](https://github.com/star-uma/eurobot_software_firmware_esp32.git) - Código de bajo nivel para microcontroladores.
 
 ### 📚 Documentación
 Manuales generales, normativas del equipo y archivos de referencia.
-* [Reglamento](https://github.com/star-uma/eurobot2027/tree/main/Documentacion/Reglamento) - Reglamento.
+* [Reglamento](https://github.com/star-uma/eurobot/tree/main/Documentacion/Reglamento) - Reglamento.
 
 ---
 *Para nuevos miembros: Por favor, dirígete al repositorio de Documentación y lee la guía de Onboarding antes de solicitar acceso a los repositorios de código o diseño.*
