@@ -44,8 +44,8 @@ Contiene todos los modelos 3D, ensamblajes, esquemas electrónicos y PCBs.
 ### 💻 Software y Control (ROS 2)
 El ecosistema de software está distribuido. Para instalar el robot completo, dirígete al meta-repositorio de software.
 * [eurobot_software](https://github.com/star-uma/eurobot_software.git) - **Meta-repositorio (Inicio rápido e instalación).**
-* [eurobot_software_comun](https://github.com/star-uma/eurobot_software_comun.git) - Paquetes de visión artificial.
-* [eurobot_software_control](https://github.com/star-uma/eurobot2027_software_control.git) - Nodos de control y navegación.
+* [eurobot_software_comun](https://github.com/star-uma/eurobot_software_comun.git) - Paquetes comunes tanto para robot real como simulación (descripción, visión, estrategia y navegación).
+* [eurobot_software_real](https://github.com/star-uma/eurobot2027_software_real.git) - Parámetros del robot real.
 * [eurobot_software_simulacion](https://github.com/star-uma/eurobot_software_simulacion.git) - Entornos virtuales y modelo URDF en Gazebo.
 * [eurobot_software_firmware_esp32](https://github.com/star-uma/eurobot_software_firmware_esp32.git) - Código de bajo nivel para microcontroladores.
 
